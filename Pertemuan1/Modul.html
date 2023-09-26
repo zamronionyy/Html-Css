@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Membuat Formulir</title>
+</head>
+<body>
+    <form action="formulir.html" method="get">
+
+    Nama : <input type="text" name="nama" value="Masukan Nama Anda"> 
+    <br />
+    password : <input type="password" name="password" > 
+    <br />
+
+    Jenis Kelamin :
+    <input type="radio" name="Jenis_Kelamin" value="Laki-Laki" checked>
+    Laki-Laki
+    <input type="radio" name="Jenis_Kelamin" value="Perempuan" />
+    Perempuan
+    <br />
+
+    Hobi : <input type="checkbox" name="hobi_baca" /> Membaca buku
+            <input type="checkbox" name="hobi_menulis" checked /> Menulis
+            <input type="checkbox" name="hobi_memancing" /> memancing
+    <br />
+
+<br>
+    Asal Kota : 
+    <select name="Asal_kota" >
+        <option value="Kota jakarta"></option>
+        <option value="Kota jombang"></option>
+        <option value="Kota Malang" selected>Malang</option>
+    </select>
+<br />
+
+<br>
+    Komentar Anda : 
+    <br>
+
+    <textarea name="Komentar" cols="20" rows="5">
+    Jujur saja Tidak apa apa
+    </textarea>
+    <br />
+
+
+    <input type="submit" value="Mulai Proses!" >
+    </form>
+    
+</body>
+</html>
